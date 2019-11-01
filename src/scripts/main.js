@@ -31,3 +31,6 @@ const firstLetterCAPS = planets.map(planet => planet[0].toUpperCase + planet.sli
 
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 */
+
+const planetsWithE = planets.filter(planet => planet.includes('e'))
+console.log(planetsWithE)
